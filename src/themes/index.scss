@@ -1,0 +1,69 @@
+@import "./element-ui.scss";
+
+/**
+ * @Author: Jason Liu
+ * @description: 基础通用样式
+ */
+
+html {
+    font-family: 'Source Han Serif SC', 'PingFang SC', 'Microsoft YaHei', 'Arial', 'sans-serif';
+}
+
+.h1 {
+    font-size: 25px;
+    color: $primaryText;
+}
+
+p {
+    margin: initial;
+}
+
+
+/**
+ * @Author: Jason Liu
+ * @description: 60主题色系
+ */
+
+.winning_60 {
+    @include main_content(#2D5AFA, #5175F4, #1D39C4, #EAEEFE, #F3F5FF, #41EDFF);
+}
+
+
+/**
+ * @Author: Jason Liu
+ * @description: 天蓝
+ */
+
+.winning_sky_blue {
+    @include main_content(#0791EF, #48ADF3, #068BDD, #ECF7FF, #F5FBFF, #46FFF9);
+}
+
+
+/**
+ * @Author: Jason Liu
+ * @description: 明青
+ */
+
+.winning_cyanogen {
+    @include main_content(#2DB7A0, #60E0CB, #089881, #EDFDFB, #F0F8F8, #BFFFF4);
+}
+
+
+/**
+ * @Author: Jason Liu
+ * @description: 孕妇粉
+ */
+
+.winning_pink {
+    @include main_content(#F24F86, #FF82AC, #D03469, #FFE4EF, #FFEEF5, #FFDAE8);
+}
+
+
+/**
+ * @Author: Jason Liu
+ * @description: 酱紫
+ */
+
+.winning_purple {
+    @include main_content(#722ED1, #9E6EE1, #551AA7, #F5EDFF, #F9F5FF, #E0CCFF);
+}

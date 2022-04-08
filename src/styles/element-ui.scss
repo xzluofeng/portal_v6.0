@@ -1,0 +1,223 @@
+// cover some element-ui styles
+// eldrapdown页面下拉中的字体大小
+.el-select-dropdown__item {
+  font-size: 16px !important;
+}
+
+.el-breadcrumb__inner,
+.el-breadcrumb__inner a {
+  font-weight: 400 !important;
+}
+
+.el-upload {
+  input[type="file"] {
+    display: none !important;
+  }
+}
+
+.el-upload__input {
+  display: none;
+}
+
+.el-dialog {
+  transform: none;
+  left: 0;
+  position: relative;
+  margin: 0 auto;
+}
+
+// refine element ui upload
+.upload-container {
+  .el-upload {
+    width: 100%;
+
+    .el-upload-dragger {
+      width: 100%;
+      height: 200px;
+    }
+  }
+}
+
+// dropdown 退出登录部分的
+.el-dropdown-menu {
+  padding-top: 0px !important;
+  top: 32px !important;
+ li:nth-child(1){
+   border-top: none;
+ }
+}
+
+// to fix el-date-picker css style
+.el-range-separator {
+  box-sizing: content-box;
+}
+
+// 所有primary的button背景色
+.el-button--primary {
+  background-color: #2d5afb;
+}
+.el-button--medium{
+  font-size: 16px;
+}
+
+// tags标签
+.el-tag{
+    border-width: unset; 
+    border-style: unset;
+    background-color: transparent; 
+    border-color: unset;
+    font-size: 16px;
+    padding: 0px 15px;
+}
+
+// 时间线整体内容
+.el-timeline{
+  text-align: left;
+}
+
+// 时间线左侧线条上的球球
+.el-timeline-item__node--normal{
+  border: 1px solid #2d5afb;
+  background-color: #ffffff;
+}
+
+// 时间线的线条
+.el-timeline-item__tail{
+  border-left: 1px solid #2d5afb;
+}
+
+// cardView标签页
+.el-tabs__active-bar{
+  // 激活下滑条
+  background-color: #2d5afb;
+  height: 2px;
+}
+.el-tabs__item.is-active{
+  // 激活文字
+  color:#2d5afb ;
+}
+.el-tabs__item{
+  font-size: 18px;
+  padding: 0px 40px;
+}
+.el-tabs__nav-wrap::after{
+  height: 1px;
+  background-color: #bbbbbb;
+}
+
+.el-popover {
+  cursor: pointer;
+  // cardView页面的关注用户的样式
+  .cancelFollowCss,
+  .editGroupInfoCss {
+    font-size: 18px;
+    padding: 5px 0px;
+    text-align: center;
+    &:hover{
+      color: #2d5afb;
+    }
+  }
+  .foucsedContent{
+    font-size: 18px !important;
+    .top{
+      display: flex;
+      justify-content: space-between;
+      .top-left{
+        color: balck;
+        font-weight: bold;
+      }
+      .top-right{color:#2d5afb ;}
+    }
+    .bottom{
+      display: flex;
+      padding: 5px 35px;
+      justify-content: space-between;
+      .el-button--mini, .el-button--small{
+        font-size: 16px;
+      }
+    }
+    .checkbox{
+      // 定制复选框样式
+      color: red;
+      .el-checkbox-group {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+      }
+      .el-checkbox {
+        flex: 1;
+        padding: 5px 10px;
+
+      }
+      .el-checkbox__label {
+        // color: red;
+        font-size: 18px;
+        vertical-align: middle;
+      }
+      .el-checkbox__inner{
+        width: 18px;
+        height: 18px;
+        &::after{
+          width:6px;
+          height: 11px;
+        }
+      }
+    }
+  }
+}
+// loading效果图片
+.el-loading-spinner{
+  /*这个是自己想设置的 gif 加载动图*/
+  background-image:url('../assets/images/loading.gif');
+  background-repeat: no-repeat;
+  background-size: 200px 120px;
+  height:100px;
+  width:100%;
+  background-position:center;
+  /*覆盖 element-ui  默认的 50%   
+   因为此处设置了height:100%,所以不设置的话，
+   会只显示一半，因为被top顶下去了*/
+  top:40%;
+}
+.el-loading-spinner .circular {
+  /*隐藏 之前  element-ui  默认的 loading 动画*/
+  display: none;
+}
+.el-loading-spinner .el-loading-text{
+  /*为了使得文字在loading图下面*/
+  margin:85px 0px;
+  font-size: 16px;
+}
+// el-table 修改格的高度
+.el-table__header tr,
+ .el-table__header th {
+   padding: 0;
+   height: 30px;
+   line-height: 30px;
+}
+.el-table__body tr,
+  .el-table__body td {
+    padding: 0;
+    height: 30px;
+    line-height: 30px;
+}
+
+
+// medicalRecord页面内的时间线上面滑块颜色
+.el-radio-button__orig-radio:checked+.el-radio-button__inner{
+    color: #FFF;
+    background-color: #2d5afb;
+    border-color: #2d5afb;
+    box-shadow: -1px 0 0 0 #2d5afb;
+}
+
+
+// 树形组件的样式
+.el-tree-node{
+  padding:2px 0px;
+}
+.el-tree-node__content{
+  &:hover {
+    color: #2d5afb;
+  }
+}

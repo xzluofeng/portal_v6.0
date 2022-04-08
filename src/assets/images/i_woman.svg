@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>女</title>
+    <desc>Created with Sketch.</desc>
+    <g id="患者360" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02-患者卡片" transform="translate(-942.000000, -375.000000)" stroke="#F56B7E" stroke-width="2">
+            <g id="编组-2备份-13" transform="translate(778.000000, 332.000000)">
+                <g id="分组-8" transform="translate(123.000000, 41.000000)">
+                    <g id="女" transform="translate(49.000510, 11.142857) rotate(-315.000000) translate(-49.000510, -11.142857) translate(43.000510, 3.000000)">
+                        <circle id="椭圆形" cx="5.75489589" cy="5.75489589" r="5.71428571"></circle>
+                        <line x1="6.16305916" y1="11.4691816" x2="6.16305916" y2="15.0421691" id="路径-13" stroke-linecap="round"></line>
+                        <polyline id="路径-14" stroke-linecap="round" points="2.36721042 13.6633633 6.0267039 15.6036978 9.68619738 13.6633633"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

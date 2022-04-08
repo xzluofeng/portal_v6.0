@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="377px" height="220px" viewBox="0 0 377 220" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>编组 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M357,0 C359.209139,-4.05812251e-16 361,1.790861 361,4 L361,68 C355.665557,68 351.341137,71.581722 351.341137,76 C351.341137,80.418278 355.665557,84 361,84 L361,84 L361,200 C361,202.209139 359.209139,204 357,204 L4,204 C1.790861,204 -1.13416296e-13,202.209139 -1.13686838e-13,200 L-1.10134124e-13,84 C5.33444267,84 9.65886288,80.418278 9.65886288,76 C9.65886288,71.581722 5.33444267,68 -1.10134124e-13,68 L-1.10134124e-13,68 L-1.13686838e-13,4 C-1.13957379e-13,1.790861 1.790861,4.05812251e-16 4,0 L357,0 Z" id="path-1"></path>
+        <filter x="-3.3%" y="-5.9%" width="106.6%" height="111.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.788235294   0 0 0 0 0.788235294   0 0 0 0 0.788235294  0 0 0 0.802532063 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="患者360" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02-患者卡片" transform="translate(-1147.000000, -324.000000)">
+            <g id="编组-2备份-15" transform="translate(1155.000000, 332.000000)">
+                <g id="编组-2">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="形状结合">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <rect id="矩形" fill="#F3F5FF" mask="url(#mask-2)" x="0" y="0" width="361" height="76"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
